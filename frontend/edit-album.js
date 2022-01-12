@@ -53,7 +53,7 @@ document.querySelector('form[name="editAlbum"]')
     console.log(result)
     console.log(updateAlbum)
 
-    //location.href = "index.html";
+    location.href = "index.html";
   });
 
 
