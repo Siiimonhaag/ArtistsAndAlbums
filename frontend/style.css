@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Permanent+Marker&display=swap');
+body {
+  font-family: 'Outfit';
+  background-image: url('images/concert-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 30px 0;
+}
+
+h1{
+  font-weight: normal;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Outfit';
+  margin-top: 0;
+}
+
+header p{
+  text-align: center;
+}
+
+
+main {
+  background-color: rgba(255, 255, 255, 0.637);
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+main a{
+  text-decoration: none;
+}
+
+.artistLink {
+  color: black;
+}
+
+.releaseDate{
+  font-size: medium;
+}
+
+input[type="text"],[type="number"], textarea, select{
+  display: block;
+  margin: 15px 0;
+  padding: 3px;
+}
+
+input[type="text"], textarea{
+  width: 30%;
+}
+
+input[type="submit"], [type="button"]{
+    margin: 10px 0 10px 0;
+    padding: 2px;
+}
+
+button{
+  font-family:'Outfit';
+  padding: 3px;
+}
+
+input, textarea, select{
+  font-family: 'Outfit';
+}

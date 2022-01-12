@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit album</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<header>
+  <h1>Edit albums</h1>
+</header>
+
+<body>
+
+  <main>
+    <div class="albumHtml"></div>
+    <form name="editAlbum">
+      <input name="albumName" type="text" placeholder="Album name" maxlength="30" minlength="1">
+      <input name="releaseDate" type="number" placeholder="Release year" maxlength="4" minlength="4"></textarea>
+
+      <input type="submit" name="change" value="Apply changes">
+      <input type="button" name="remove" value="Remove album">
+    </form>
+    <a href="index.html">
+      <button>Go to front page</button>
+    </a>
+  </main>
+  <script src="edit-album.js"></script>
+</body>
+
+</html>

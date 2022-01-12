@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit artist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<header>
+  <h1>Edit artist</h1>
+</header>
+
+<body>
+
+  <main>
+    <form name="editArtist">
+      <select name="id" required>
+        <option value="">Choose artist to edit/remove:</option>
+      </select>
+      <input name="artistName" type="text" placeholder="Artist name" maxlength="30" minlength="1">
+      <textarea name="artistDescription" type="text" placeholder="Description" maxlength="1000"
+        minlength="1"></textarea>
+
+      <input type="submit" name="change" value="Apply changes">
+      <input type="button" name="remove" value="Remove artist">
+    </form>
+    <a href="index.html">
+      <button>Go to front page</button>
+    </a>
+  </main>
+
+  <script src="edit-artist.js"></script>
+</body>
+
+</html>
